@@ -21,12 +21,23 @@ main {
   display: flex;
   flex-direction: column;
 }
+.clearfix{
+  clear: both;
+}
 /*2 Header Section*/
+
+nav{
+  
+}
 
 .hero{
   width: 1440px;
   height: 630px;
   background: url(../images/your_verse_hero.jpg)50% 100% no-repeat;
+}
+
+.header-nav{
+  margin-top:0;
 }
 
 .apple-icon{
@@ -57,6 +68,8 @@ main {
   background-position: 0 -32px;
 }
 
+
+
 /*3 Content Section*/
 
 .promos img{
@@ -70,3 +83,44 @@ main {
 }
 
 /*4 Footer Section*/
+footer{
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  max-width: 980px;
+  margin: 10px auto;
+  font-size: 10px;
+  color: rgb(110, 110, 110);
+}
+footer a{
+  text-decoration: none;
+  color: #08c;
+}
+footer a:hover{
+  text-decoration: underline;
+}
+
+.footer-info{
+  float: left;
+  width: 49%;
+  box-sizing: border-box;
+}
+
+.footer-nav{
+  margin-left: 0;
+  margin-top: 5px;
+  margin-bottom: 0;
+  padding-left: 0;
+  float: right;
+  width: 49%;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+.footer-nav li{
+  display: inline;
+  padding-left: 5px;
+  border-left: 1px solid #797c80;
+}
+
+.footer-nav li:first-child{
+  border-left: none;
+}
