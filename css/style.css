@@ -27,17 +27,53 @@ main {
 /*2 Header Section*/
 
 nav{
-  
+  margin-top:75px;
+  width: 980px;
+  height: 36px;
+  background: linear-gradient(rgb(102, 102, 102) 0%, rgb(94, 94, 94) 50%, rgb(112, 112, 112) 51%, rgb(128, 128, 128) 100%);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 2px 0px;
+  border-radius: 4px;
+}
+
+.header-content{
+  margin-top:50px;
+  max-width: 980px;
 }
 
 .hero{
   width: 1440px;
   height: 630px;
+  align-items: center;
   background: url(../images/your_verse_hero.jpg)50% 100% no-repeat;
 }
 
 .header-nav{
-  margin-top:0;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  margin:0;
+  padding: 0;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+  color:white;
+}
+
+.header-nav li{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border-left: 1px double gray;
+}
+
+.header-nav li:hover{
+  background: rgba(0, 0, 0, .4);
+  cursor: pointer;
 }
 
 .apple-icon{
@@ -50,9 +86,46 @@ nav{
   background-repeat: no-repeat;
 }
 
+.search-bar{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10px;
+}
+
+.search-bar input{
+  width: 106px;
+  border-radius: 12px;
+  background-color: transparent;
+  height: 19px;
+  background-image: none;
+  padding: 2px 18px 1px 22px;
+  box-sizing: border-box;
+  border: none;
+  box-shadow: inset 0px 1px 1px rgba(70, 70, 70, 0.8), inset 0 -1px 1px rgba(204, 204, 204, 0.6);
+  transition: all 0.5s ease-out;
+}
+
+.search-bar input:focus{
+  width: 170px;
+  background-color: white;
+  color: black;
+}
+
+.search-bar:focus-within img{
+  filter: none;
+}
+
 .search-bar img{
   width: 30px;
   height: 30px;
+  filter: brightness(0) invert(1);
+  position: absolute;
+  top:3px;
+  left:15px;
+  transition: all 0.5s ease-out;
 }
 
 .text-img{
