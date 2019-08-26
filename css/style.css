@@ -29,6 +29,34 @@ main {
   background: url(../images/your_verse_hero.jpg)50% 100% no-repeat;
 }
 
+.apple-icon{
+  display: block;
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  background-image: url(../images/globalnav_text.png);
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+}
+
+.search-bar img{
+  width: 30px;
+  height: 30px;
+}
+
+.text-img{
+  display: block;
+  height: 32px;
+  background-image: url(../images/cta_your_verse_27pt.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+.text-img:hover{
+  cursor: pointer;
+  background-position: 0 -32px;
+}
+
 /*3 Content Section*/
 
 .promos img{
