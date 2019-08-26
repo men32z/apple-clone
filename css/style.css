@@ -1,0 +1,30 @@
+/*1 General Section*/
+/*2 Header Section*/
+/*3 Footer Section*/
+
+/*1 General Section*/
+body {
+  margin:0;
+}
+main {
+  max-width: 1440px;
+  min-width: 1250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.row{
+  display: flex;
+  flex-direction: row;
+}
+.column{
+  display: flex;
+  flex-direction: column;
+}
+/*2 Header Section*/
+
+.hero{
+  width: 1440px;
+  height: 630px;
+  background: url(../images/your_verse_hero.jpg)50% 100% no-repeat;
+}
+/*3 Footer Section*/
