@@ -177,6 +177,7 @@ nav {
   margin-top: 3px;
   padding-left: 3px;
   box-sizing: border-box;
+  width: 25%;
 }
 
 .promos img:nth-child(1) {
