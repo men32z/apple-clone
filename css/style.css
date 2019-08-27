@@ -173,6 +173,10 @@ nav {
 
 /* 3 Content Section */
 
+.promos {
+  width: 1440px;
+}
+
 .promos img {
   margin-top: 3px;
   padding-left: 3px;
